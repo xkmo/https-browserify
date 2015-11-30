@@ -8,10 +8,10 @@
     "url": "git://github.com/substack/https-browserify.git"
   },
   "dependencies": {
-    "stream-http": "2.0.2"
+    "http-browserify": "1.7.0"
   },
   "browser": {
-    "http": "stream-http"
+    "http": "http-browserify"
   },
   "homepage": "https://github.com/substack/https-browserify",
   "keywords": [
