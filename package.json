@@ -7,6 +7,12 @@
     "type": "git",
     "url": "git://github.com/substack/https-browserify.git"
   },
+  "dependencies": {
+    "stream-http": "2.0.2"
+  },
+  "browser": {
+    "http": "stream-http"
+  },
   "homepage": "https://github.com/substack/https-browserify",
   "keywords": [
     "https",
